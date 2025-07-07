@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stars Team Event</title>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="Pictures/Logo.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="Pictures/WhatsApp Image 2025-07-06 at 18.04.34.jpeg" alt="Stars Team Event Logo" />
+    </div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="event.html">Events</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="Pictures/FrontVideo.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <div class="overlay-left">
+        <h1>First Emirati Products Week in Rwanda</h1>
+        <p>October 26–28, 2025 | Kigali Convention Centre  <br>Showcasing the Best of the UAE in the Heart of Africa</p>
+        <a href="details.html" class="cta-button">More Details</a>
+      </div>
+      <div class="calendar-section">
+        <h2>Mark Your Calendar</h2>
+        <div id="calendar">
+          <div class="day-label">Sun</div>
+          <div class="day-label">Mon</div>
+          <div class="day-label">Tue</div>
+          <div class="day-label">Wed</div>
+          <div class="day-label">Thu</div>
+          <div class="day-label">Fri</div>
+          <div class="day-label">Sat</div>
+          <!-- Days filled by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights Section -->
+<section id="highlights" class="event-highlights">
+  <h2>Event <span>Highlights</span></h2>
+  <div class="highlight-grid">
+    <div class="highlight-card">
+      <img src="Pictures/digital-art-inmersive-exhibition.jpg" alt="Exhibition">
+      <h3>Exclusive Exhibitions</h3>
+      <p>Experience premium Emirati products showcased by top brands.</p>
+    </div>
+    <div class="highlight-card">
+      <img src="Pictures/cloud-computing-banner-background-smart-city.jpg" alt="Networking">
+      <h3>Networking Opportunities</h3>
+      <p>Meet business leaders, buyers, and global partners.</p>
+    </div>
+    <div class="highlight-card">
+      <img src="Pictures/multi-ethnic-people-traditional-dress-diversity-culture-unity-friendship.jpg" alt="Culture">
+      <h3>Emirati Culture</h3>
+      <p>Enjoy traditional arts, food, and fashion from the UAE.</p>
+    </div>
+
+    <!-- NEW HIGHLIGHTS BELOW -->
+    <div class="highlight-card">
+      <img src="Pictures/businessman-with-light-bulb-his-hand.jpg" alt="Innovation">
+      <h3>Innovation Lab</h3>
+      <p>Discover tech breakthroughs from UAE’s leading startups.</p>
+    </div>
+    <div class="highlight-card">
+      <img src="Pictures/beautiful-girl-traditional-carpet-shop-goreme-city-cappadocia-turkey.jpg" alt="Cultural Show">
+      <h3>Cultural Showcase</h3>
+      <p>Live performances reflecting UAE's vibrant heritage.</p>
+    </div>
+    <div class="highlight-card">
+      <img src="Pictures/senior-businessman-sitting-chair-with-laptop-sitting-front-his-team-office.jpg" alt="Business Forum">
+      <h3>Business Forum</h3>
+      <p>Panel talks on economic partnerships and investments.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Partner With Us Section -->
+<section id="partner" class="partner-section">
+  <div class="partner-container">
+    <h2>Partner With Us</h2>
+    <p>Join hands with us to showcase Emirati excellence globally. Whether you're a business, media house, or cultural organization — let's collaborate.</p>
+    <a href="contact.html" class="partner-button">Become a Partner</a>
+  </div>
+</section>
+
+<section class="why-choose-us">
+  <h2>WHY CHOOSE <span>STARS TEAM?</span></h2>
+  <div class="choose-grid">
+    <div class="choose-card">
+      <i class='bx bx-user-check'></i>
+      <h3>Expertise</h3>
+      <p>Our seasoned professionals have extensive experience in event management, ensuring that your event is handled with the utmost care.</p>
+    </div>
+    <div class="choose-card">
+      <i class='bx bx-cog'></i>
+      <h3>Personalized Service</h3>
+      <p>We tailor our services to meet your specific needs, ensuring a unique and personalized experience.</p>
+    </div>
+    <div class="choose-card">
+      <i class='bx bx-group'></i>
+      <h3>Attention to Detail</h3>
+      <p>We believe that the little things matter. Our meticulous attention to detail ensures that nothing is overlooked.</p>
+    </div>
+    <div class="choose-card">
+      <i class='bx bx-network-chart'></i>
+      <h3>Local Knowledge</h3>
+      <p>As a UAE-based agency, we have in-depth knowledge of the best venues, suppliers, and trends in the region.</p>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="rw">
+    <div class="col">
+      <h3>About Us</h3>
+      <p class="intro">Stars Team Events specializes in organizing unforgettable corporate events, exhibitions, and social celebrations across the UAE.</p>
+      <div class="social-icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-linkedin'></i>
+      </div>
+    </div>
+
+    <div class="col">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="aboutus.html#FAQs">FAQ</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Customer Service</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>Newsletter</h3>
+      <form>
+        <i class='bx bx-envelope email-icon'></i>
+        <input type="email" placeholder="Enter your email" />
+        <button type="submit"><i class='bx bx-send'></i></button>
+      </form>
+      <p>Stay updated on our latest events and announcements.</p>
+    </div>
+  </div>
+  <hr>
+  <p class="cname">© 2025 <strong>Stars Team Events</strong> | All Rights Reserved</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+

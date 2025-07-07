@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stars Team Event</title>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="Pictures/Logo.png">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Pictures/WhatsApp Image 2025-07-06 at 18.04.34.jpeg" alt="Stars Team Event Logo" />
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Video Banner -->
+    <section class="video-banner">
+        <video autoplay muted loop>
+            <source src="Pictures/FrontVideo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="banner-text">
+            <h1>Our Events Gallery</h1>
+            <p>Relive moments of elegance, energy, and excellence</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-block">
+            <div class="text">
+                <h2>Comprehensive Event Management</h2>
+                <p>From the initial concept to the final curtain call, we manage every detail of your event with
+                    precision and flair. Our full-service approach includes venue sourcing, logistics, vendor
+                    coordination, styling, guest management, and on-site execution — all tailored to your goals. We
+                    ensure your experience is smooth, memorable, and stress-free from start to finish.</p>
+            </div>
+            <div class="image">
+                <img src="Pictures/10058.jpg" alt="Event Image 1">
+            </div>
+        </div>
+
+        <div class="gallery-block reverse">
+            <div class="text">
+                <h2>Corporate Events That Inspire</h2>
+                <p>Elevate your brand through flawlessly executed conferences, seminars, business launches, and
+                    networking events. We design professional gatherings that leave lasting impressions — blending
+                    strategic planning, innovative theming, and seamless logistics to boost brand visibility, foster
+                    engagement, and drive meaningful connections.</p>
+            </div>
+            <div class="image">
+                <img src="Pictures/34257-1024x683.jpg" alt="Corporate Event">
+            </div>
+        </div>
+
+        <div class="gallery-block">
+            <div class="text">
+                <h2>Dream Weddings Crafted With Love</h2>
+                <p>Your love story deserves more than just a celebration — it deserves magic. We specialize in planning
+                    unforgettable weddings with elegant design, personalized touches, and seamless coordination. From
+                    the aisle to the last dance, we bring your vision to life with passion, creativity, and unmatched
+                    attention to detail.</p>
+            </div>
+            <div class="image">
+                <img src="Pictures/8417-1024x681.jpg" alt="Wedding Event">
+            </div>
+        </div>
+
+        <div class="gallery-block reverse">
+            <div class="text">
+                <h2>Social Celebrations to Remember</h2>
+                <p>Whether it’s a birthday bash, a milestone anniversary, or a private themed soirée, we turn personal
+                    celebrations into unforgettable memories. We handle every element — from decor and entertainment to
+                    lighting and guest experiences — creating moments that sparkle with personality and joy.</p>
+            </div>
+            <div class="image">
+                <img src="Pictures/9916-1024x683.jpg" alt="Celebration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & CTA Section -->
+    <section class="vision-section">
+        <div class="vision-content">
+            <div class="left-box">
+                <h2>Shaping Moments, Elevating Celebrations</h2>
+                <a href="#" class="cta-btn">Plan Your Next Event With Us!</a>
+            </div>
+            <div class="right-text">
+                <h3>Your Vision, Our Execution</h3>
+                <p>
+                    At Stars Team, we take pride in our ability to bring your ideas to life.
+                    Our team of creative minds and experienced planners is dedicated to understanding your vision and
+                    executing it flawlessly.
+                    <strong>Collaboration is key</strong>, and we keep you informed every step of the way, ensuring that
+                    your event turns out just as you imagined.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2 class="section-title"><span>Our</span> Projects</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn left" onclick="scrollCarousel('left')">&#10094;</button>
+            <div class="carousel-track" id="project-carousel">
+                <div class="project-card">
+                    <img src="Pictures/KFC.jpg" alt="KFC">
+                    <span class="caption">KFC</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/GT .png" alt="GT7 Record">
+                    <span class="caption">GT 7 Record</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/GT 7Arch.jpg" alt="GT7 Arch">
+                    <span class="caption">GT 7 Arch</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Nova.jpg" alt="Nova Tech">
+                    <span class="caption">Nova Tech</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Star Gala.jpg" alt="Star Gala">
+                    <span class="caption">Star Gala</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Activation.png" alt="Mall Activation">
+                    <span class="caption">Mall Activation</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Fashion.jpg" alt="Fashion Show">
+                    <span class="caption">Fashion Show</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Expo.png" alt="Expo Dubai">
+                    <span class="caption">Expo Dubai</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Award.png" alt="Award Night">
+                    <span class="caption">Award Night</span>
+                </div>
+                <div class="project-card">
+                    <img src="Pictures/Live.jpg" alt="Live Concert">
+                    <span class="caption">Live Concert</span>
+                </div>
+            </div>
+            <button class="carousel-btn right" onclick="scrollCarousel('right')">&#10095;</button>
+        </div>
+    </section>
+
+      <footer>
+  <div class="rw">
+    <div class="col">
+      <h3>About Us</h3>
+      <p class="intro">Stars Team Events specializes in organizing unforgettable corporate events, exhibitions, and social celebrations across the UAE.</p>
+      <div class="social-icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-linkedin'></i>
+      </div>
+    </div>
+
+    <div class="col">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="aboutus.html#FAQs">FAQ</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Customer Service</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>Newsletter</h3>
+      <form>
+        <i class='bx bx-envelope email-icon'></i>
+        <input type="email" placeholder="Enter your email" />
+        <button type="submit"><i class='bx bx-send'></i></button>
+      </form>
+      <p>Stay updated on our latest events and announcements.</p>
+    </div>
+  </div>
+  <hr>
+  <p class="cname">© 2025 <strong>Stars Team Events</strong> | All Rights Reserved</p>
+</footer>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+
+        function scrollCarousel(direction) {
+            const track = document.getElementById('project-carousel');
+            const scrollAmount = 300;
+
+            if (direction === 'left') {
+                track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+                track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+
+    </script>
+</body>
+
+</html>
